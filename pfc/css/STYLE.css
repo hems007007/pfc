@@ -1,0 +1,439 @@
+
+
+
+body{
+		
+		margin: 0;
+		background-image: url( "../image/abcd.jpg");
+		background-size: cover;
+		font-family: sans-serif;
+	     font-weight: bold;
+		animation: bgcolor 3s;	
+	}	
+.fa{
+	color: brown;
+}
+
+	#menu{
+		background: #142b47;
+		width: 100%;
+		overflow: auto;
+
+	}
+	
+	#menu ul{
+	list-style: none;
+		line-height: 60px;
+      margin: 0;
+		padding: 0;
+	}
+	#menu li{
+		float: left;
+	}
+	
+	#menu ul li a{
+	background: #142b47;
+	text-decoration: none;
+	width: 125px;
+	text-align: center;
+	color: #f2f2f2;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 0.1px;
+}
+	
+#menu li a:hover{
+		color: #fff;
+		opacity: 0.5;
+		font-size: 19px;
+	}
+	
+	.search-form{
+		margin-top: 15px;
+		float: right;
+		margin-right: 100px;
+		
+		
+	}
+	
+	input[type=text]{
+		padding: 7px;
+		border: none;
+		font-size: 16px;
+		font-family: sans-serif;
+		border-radius: 5px 0 0 5px;
+	}
+	
+	button{
+		float: right;
+		background: orange;
+		color: #fff;
+		border-radius: 0 5px 5px 0;
+		cursor:pointer;
+		position:absolute;
+		padding: 7px;
+	border: none;
+		font-size: 16px;
+	
+	}
+
+.bgpulse{
+		width: 100%;
+		height: 100%;
+		
+	}
+	.bgpulse span{
+		position: absolute;
+		width: 88px;
+		height: 88px;
+		background: #fff;
+		
+		
+	}
+	.bgpulse span:nth-child(3n+1){
+		background: transparent;
+		border: 5px solid #fff;
+	}	
+	.bgpulse span:nth-child(1)
+	{
+		
+		top: 50%;
+		left: 20%;
+		animation: animate 10s linear infinite;
+	}
+	.bgpulse span:nth-child(2)
+	{
+		
+		top: 88%;
+		left: 40%;
+		animation: animate 12s linear infinite;
+	}
+	.bgpulse span:nth-child(3){
+		top:10%;
+		left: 65%;
+		animation: animate 15s linear infinite;
+	}	
+	.bgpulse span:nth-child(4){
+		top:50%;
+		left: 70%;
+		animation: animate 6s linear infinite;
+	}
+	.bgpulse span:nth-child(5){
+		top:10%;
+		left: 30%;
+		animation: animate 9s linear infinite;
+	}
+	.bgpulse span:nth-child(6){
+		top:90%;
+		left: 95%;
+		animation: animate 8s linear infinite;
+	}
+	.bgpulse span:nth-child(7){
+		top:80%;
+		left: 5%;
+		animation: animate 5s linear infinite;
+	}
+	.bgpulse span:nth-child(8){
+		top:35%;
+		left: 50%;
+		animation: animate 14s linear infinite;
+	}
+	.bgpulse span:nth-child(9){
+		top:5%;
+		left:5%;
+		animation: animate 11s linear infinite;
+	}
+	.bgpulse span:nth-child(10){
+		top:25%;
+		left: 90%;
+		animation: animate 10s linear infinite;
+	}	
+	@keyframes animate{
+		0%{
+			transform: scale(0) translateY(0) rotate(0deg); opacity:1;
+		}
+		100%{
+			transform: scale(1) translateY(-100px) rotate(360deg); opacity:0;
+		}
+		
+		
+		
+	}	
+	@keyframes bgcolor{
+		
+		0%{
+			background: #71E8F3;
+		}
+		25%{
+			background: #66ABD1;
+		}
+	
+		75%{
+			background: #4D93B4;
+		}
+		100%{
+			background: #327BA4;
+		}	
+		
+	}	
+	
+	
+	#wavy{
+	text-align: center;
+	font-size: 3.1rem;
+		margin-top: 300PX;
+		margin-left: 400PX;
+	font-family: CONSOLAS;
+		font-weight: 600;
+	position: absolute;
+	
+	-webkit-box-reflect:below -12px linear-gradient(
+	transparent, rgba(0,0,0,0.5));
+}
+	#babu{
+		font-weight: bold;
+		text-align: center;
+	font-size: 1.7rem;
+		margin-top: 50PX;
+		margin-left: 1200PX;
+	font-family: CONSOLAS;
+		font-weight: 600;
+	position: absolute;
+	
+	
+	}
+	#babu SPAN{
+	
+	position: relative;
+	display: inline-block;
+	color: black;
+	margin: 0;
+	padding: 0;
+	animation: animateoo 1s linear infinite;
+	animation-delay: calc(0.3s * var(--i));
+}
+@keyframes animateoo{
+	0%{
+		transform: translateY(0px);
+	}
+	20%
+	{
+		
+		transform: translateY(-20px);
+	}
+	40%,100%
+	{
+		
+		transform: translateY(0px);
+	}
+}	
+	#am{
+		margin-right: 10px;
+	}	
+	#love{
+	
+	font-size: 1.5rem;
+		margin-top: 250PX;
+		margin-left: 400PX;
+	font-family: CONSOLAS;
+		font-weight: 600;
+	position: absolute;
+	}
+	
+
+#maindiv{
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	left:16%;
+	top: 42%;
+	background-image:url("../image/ROLL.jpg");
+	background-size: 100% 100%;
+	transform: translate(-50%, -30%);
+	box-shadow: 1px 2px 10px 10px black;
+	animation: slider 15s infinite linear;
+
+}
+
+
+
+@keyframes slider{
+	0%{
+	background-image: url( "../image/ROLLw.jpg")	;
+	}
+	10%{
+	background-image: url( "../image/croppasta.jpg")	;
+	}
+	20%{
+		background-image: url("../image/vda.jpeg");
+	}
+	
+	30%{
+		background-image: url(   "../image/cornchat.jpeg");
+	}
+	40%{
+		background-image: url(   "../image/mommom.jpeg");
+	}
+	50%{
+		background-image: url(  "../image/pizza.jpg");
+	}
+	60%{
+		background-image: url(  "../image/maggi.jpg");
+	}
+	70%{
+		background-image: url(   "../image/pakoda.jpg");
+	}
+	80%{
+		background-image: url(  "../image/pAvvbhaji.jpg");
+	}
+	90%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	100%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	
+	
+}
+
+#maindiv1{
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	left:53%;
+	top: 42%;
+	background-image:url("ROLL.jpg");
+	background-size: 100% 100%;
+	transform: translate(-50%, -30%);
+	box-shadow: 1px 2px 10px 10px black;
+	animation: slidero 15s infinite linear;
+
+}
+
+
+
+@keyframes slidero{
+	0%{
+	background-image: url( "../image/croppasta.jpg")	;
+	}
+	10%{
+	background-image: url( "../image/ROLLw.jpg")	;
+	}
+	20%{
+		background-image: url("../image/vda.jpeg");
+	}
+	
+	30%{
+		background-image: url(   "../image/cornchat.jpeg");
+	}
+	40%{
+		background-image: url(   "../image/mommom.jpeg");
+	}
+	50%{
+		background-image: url(  "../image/pizza.jpg");
+	}
+	60%{
+		background-image: url(  "../image/maggi.jpg");
+	}
+	70%{
+		background-image: url(   "../image/pakoda.jpg");
+	}
+	80%{
+		background-image: url(  "../image/pAvvbhaji.jpg");
+	}
+	90%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	100%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	
+	
+}
+
+
+#maindiv2{
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	left:90%;
+	top: 42%;
+	background-image:url("ROLL.jpg");
+	background-size: 100% 100%;
+	transform: translate(-50%, -30%);
+	box-shadow: 1px 2px 10px 10px black;
+	animation: sliderm 15s infinite linear;
+
+}
+
+
+
+@keyframes sliderm{
+	0%{
+	background-image: url( "../image/vda.jpeg")	;
+	}
+	10%{
+	background-image: url( "../image/croppasta.jpg")	;
+	}
+	20%{
+		background-image: url("../image/ROLLw.jpg");
+	}
+	
+	30%{
+		background-image: url(   "../image/cornchat.jpeg");
+	}
+	40%{
+		background-image: url(   "../image/mommom.jpeg");
+	}
+	50%{
+		background-image: url(  "../image/pizza.jpg");
+	}
+	60%{
+		background-image: url(  "../image/maggi.jpg");
+	}
+	70%{
+		background-image: url(   "../image/pakoda.jpg");
+	}
+	80%{
+		background-image: url(  "../image/pAvvbhaji.jpg");
+	}
+	90%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	100%{
+		background-image: url(  "../image/chw.jpeg");
+	}
+	
+	
+}
+
+#sony{
+
+	position: absolute;
+	left:0%;
+	top: 95%;
+	background: #fff;
+
+}
+
+h1{
+	margin-left: 30%;
+	background: #1349B5;
+}
+.uglu{
+	background-color:#FBB4B5;
+}
+
+	#cona{
+		
+			font-size: 12px;
+		  
+			color: #000;
+			float: right;
+		}
+#cool{
+	border: 3px solid  #F4E6AD;
+	border-radius: 5px;
+	font-family:"Trebuchet MS";
+	
+}
