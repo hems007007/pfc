@@ -1,0 +1,60 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.team-section{
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 20px;
+}
+
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: aliceblue;
+	font-size: 40px;
+}
+.bab{
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+}
+.ram{
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 60px;
+	
+	
+}
+
+
+.ps a{
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.ps a img{
+	
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+
+.ps a:hover > img{
+filter: none;
+
+}
+

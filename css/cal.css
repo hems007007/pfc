@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+	
+	body{
+		background: url( "abcd.jpg");
+		font-family: dosis,sans-serif;
+		background-size: cover;
+	}	
+	
+	.box{
+		border:1px solid ##2d354a;
+		width:310px;
+		height:450px;
+		position: fixed;
+		left:77%;
+		top:10%;
+		box-shadow: 2px 4px 19px;
+		background: #2d354a;
+		border-radius: 20px;
+	}
+	
+	.subbox{
+		margin: 12px;
+	}	
+	
+	.textview{
+		width: 90%;
+		padding: 10px;
+		margin: 10px 1%;
+		border-radius: 4px;
+		font-size: 18px;
+		border: none;
+		font-family: comic neue,cursive;
+		font-weight: bolder;
+		
+		
+	}
+	
+	
+	
+	input[type="button"]{
+		
+		width:55px;
+		height:55px;
+		font-size: 20px;
+		border: none;
+		box-shadow: 5px 0px 8px 1px #191919;
+		border-bottom: none;
+		border-radius: 60px;
+		background: white;
+		color: #2d354a;
+		cursor: pointer;
+		font-family: comic neue,cursive;
+		font-weight: bolder;
+		outline: none;
+		margin: 0PX 10%;
+		
+	}
+	
+	input[type="button"]:hover{
+		background: #caccce;
+		
+	}
+	
+	
+	input[type="submit"]{
+		
+		width:55px;
+		height:55px;
+		font-size: 20px;
+		border: none;
+		box-shadow: 5px 0px 8px 1px #191919;
+		border-bottom: none;
+		border-radius: 60px;
+		background: #D86365;
+		color: white;
+		cursor: pointer;
+		font-family: comic neue,cursive;
+		font-weight: bolder;
+		outline: none;
+		margin: 0PX 10%;
+		
+	}
+	
+	input[value="="]{
+		background: #536332;
+	}
+	INPUT[value="C"]{
+		
+		
+		background: #C761E8;
+	}
+	H2{
+		text-align: center;
+		margin-top:5%;
+		color: WHITE;
+		
+	}

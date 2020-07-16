@@ -1,0 +1,363 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+	background-image: url( "abcd.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	font-weight: bold;
+	animation: bgcolor 3s;
+	overflow: hidden;
+}
+.bgpulse{
+		width: 100%;
+		height: 100%;		
+	}
+	.bgpulse span{
+		position: absolute;
+		width: 88px;
+		height: 88px;
+		background: #fff;
+		
+	}
+	.bgpulse span:nth-child(3n+1){
+		background: transparent;
+		border: 5px solid #fff;
+	}
+	
+	
+	
+	.bgpulse span:nth-child(1)
+	{
+		
+		top: 50%;
+		left: 20%;
+		animation: animate 10s ;
+	}
+	.bgpulse span:nth-child(2)
+	{
+		
+		top: 88%;
+		left: 40%;
+		animation;
+	}
+	
+	.bgpulse span:nth-child(3){
+		top:10%;
+		left: 65%;
+		animati0n;
+	}
+	
+	.bgpulse span:nth-child(4){
+		top:50%;
+		left: 70%;
+		animation: animate 6s;
+	}
+	.bgpulse span:nth-child(5){
+		top:10%;
+		left: 30%;
+		animation: animate 9s;
+	}
+	.bgpulse span:nth-child(6){
+		top:90%;
+		left: 95%;
+		animation: animate 8s;
+	}
+	.bgpulse span:nth-child(7){
+		top:80%;
+		left: 5%;
+		animation: animate 5s;
+	}
+	.bgpulse span:nth-child(8){
+		top:35%;
+		left: 50%;
+		animation: animate 14s;
+	}
+	.bgpulse span:nth-child(9){
+		top:5%;
+		left:5%;
+		animation: animate 11s;
+	}
+	.bgpulse span:nth-child(10){
+		top:25%;
+		left: 90%;
+		animation: animate 10s ;
+	}
+	
+	@keyframes animate{
+		0%{
+			transform: scale(0) translateY(0) rotate(0deg); opacity:1;
+		}
+		100%{
+			transform: scale(1) translateY(-100px) rotate(360deg); opacity:0;
+		}
+		
+		
+		
+	}
+
+	@keyframes bgcolor{
+		
+		0%{
+			background: #F44336;
+		}
+		25%{
+			background: #9C27B0;
+		}
+	
+		75%{
+			background: #00ff0a;
+		}
+		100%{
+			background: #F44336;
+		}	
+		
+	}
+
+#menu{
+	display: none;
+}
+
+#menu ul{
+	list-style: none;
+	
+}
+
+
+#menu ul li{
+	border-radius: 8px;
+	BACKGROUND-COLOR:white  ;
+    WIDTH:120PX	;
+	FLOAT: right;
+	BORDER: 1PX SOLID black;
+	HEIGHT: 35PX;
+	line-height: 35PX;
+	TEXT-ALIGN: CENTER;
+	position: relative;
+	margin: 1.5px;
+	
+	
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+
+#menu ul li a:hover
+{
+	border-radius: 8px;
+	background-color: #D3A4A5;
+	
+}
+
+
+
+#menu ul ul{
+	position: absolute;
+	display: none;
+}
+
+
+#menu ul li:hover > ul{
+display: block;
+}
+
+/*
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+*/
+
+
+#cona{
+	display: none;
+	font-size:15px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	margin-left:2%;
+		}
+
+
+
+#cool{
+	text-decoration: underline;
+	font-size: 1rem;
+	color: #DB1519;
+		
+}
+
+
+#maindiv{
+	display: none;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left:20%;
+	top: 52%;
+	background-image:url("ROLL.jpg");
+	background-size: 100% 100%;
+	transform: translate(-50%, -30%);
+	box-shadow: 1px 2px 10px 10px black;
+	animation: slider 10s infinite linear;
+
+}
+
+
+
+
+@keyframes slider{
+	0%{
+	background-image: url( "ROLLw.jpg")	;
+	}
+	10%{
+	background-image: url( "croppasta.jpg")	;
+	}
+	20%{
+		background-image: url("vda.jpeg");
+	}
+	
+	30%{
+		background-image: url(   "cornchat.jpeg");
+	}
+	40%{
+		background-image: url(   "mommom.jpeg");
+	}
+	50%{
+		background-image: url(  "chw.jpeg");
+	}
+	60%{
+		background-image: url(  "chw.jpeg");
+	}
+	70%{
+		background-image: url(  "chw.jpeg");
+	}
+	80%{
+		background-image: url(  "chw.jpeg");
+	}
+	90%{
+		background-image: url(  "chw.jpeg");
+	}
+	100%{
+		background-image: url(  "chw.jpeg");
+	}
+	
+	
+}
+
+#wavy{
+	text-align: left;
+	font-size: 1.8rem;
+	margin-top: 5%;
+	margin-left: 2%;
+	font-family: CONSOLAS;
+    display: none;
+	cursor: pointer;
+	position: absolute;
+	
+	-webkit-box-reflect:below -12px linear-gradient(
+	transparent, rgba(0,0,0,0.5));
+}
+#wavy SPAN{
+	
+	position: relative;
+	display: inline-block;
+	color: black;
+	margin: 0;
+	padding: 0;
+	animation: animateo 1s ease-in-out infinite;
+	animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animateo{
+	0%{
+		transform: translateY(0px);
+	}
+	20%
+	{
+		
+		transform: translateY(-20px);
+	}
+	40%,100%
+	{
+		
+		transform: translateY(0px);
+	}
+}
+
+
+
+#wavy a{
+	text-decoration: none;
+	
+}
+
+
+
+
+
+/*
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+
+/* Add animation to "page content" */
+/*
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+*/
+
+#myDiv {
+	
+  display: none;
+  text-align: center;
+}
+#fuck{
+display:none;
+}
