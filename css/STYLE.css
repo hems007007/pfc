@@ -444,7 +444,7 @@ h1{
 	
 }
 
-@media only screen and (min-width:998px)
+@media only screen and (min-width:800px)
 {
 	#maindiv{
 		width:250px;
