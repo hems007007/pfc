@@ -450,10 +450,20 @@ h1{
 		width:250px;
 		height:250px;
 	}
+	
+}
+@media only screen and (max-width:600px)
+{
 	#maindiv1{
 		width:250px;
-		height:250px;}
+		height:250px;
+	}
+	
+}@media only screen and (max-width:600px)
+{
 	#maindiv2{
 		width:250px;
-		height:250px;}
+		height:250px;
+	}
+	
 }
