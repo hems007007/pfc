@@ -1,9 +1,14 @@
 
-
+*
+{
+	padding: 0;
+		margin: 0;
+	box-sizing: border-box;
+}
 
 body{
-		
-		margin: 0;
+		overflow-x: hidden;
+		background-repeat: no-repeat;
 		background-image: url( "../image/abcd.jpg");
 		background-size: cover;
 		font-family: sans-serif;
@@ -15,9 +20,10 @@ body{
 }
 
 	#menu{
+		max-width: 1180px;
+		margin: 0 auto;
 		background: #142b47;
-		width: 100%;
-		overflow: auto;
+	
 
 	}
 	
