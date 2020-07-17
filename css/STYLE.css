@@ -444,16 +444,16 @@ h1{
 	
 }
 
-@media only screen and (max-width:998px)
+@media only screen and (min-width:998px)
 {
 	#maindiv{
-		width:350px;
-		height:350px;
+		width:250px;
+		height:250px;
 	}
 	#maindiv1{
-		width:350px;
-		height:350px;}
+		width:250px;
+		height:250px;}
 	#maindiv2{
-		width:350px;
-		height:350px;}
+		width:250px;
+		height:250px;}
 }
