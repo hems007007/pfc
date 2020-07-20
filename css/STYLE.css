@@ -43,7 +43,7 @@ background-size: cover;
 	color: #000;
 	display: block;
 	font-size: 90%;
-	font-weight: 100;
+	font-weight: 700;
 	letter-spacing: 0.1px;
 }
 #menu li a:hover{
@@ -417,11 +417,10 @@ background-color:#FBB4B5;
 	font-family:"Trebuchet MS";
 	
 }
-/*
 
 .mobile-icon{
-	display: none;}
-*/
+	display: none;
+}
 
 /*
 @media only screen and (max-width:600px)
@@ -435,19 +434,41 @@ background-color:#FBB4B5;
 
 @media only screen and (max-width:600px)
 {
-/*
-	.main-nav{display: none;}
+	.main-nav{
+		display: none;
+		float: left;
+	}
+
+	.main-nav li{
+		margin-left:-8px;
+		margin-top: 10px;
+		display: block;
+		padding: 5px;
+	}
 	
 	.mobile-icon{
-		margin-top: 70px;
-		display:block;
-		float: right;
-		
+
+		display: inline-block;
+		margin-top: 20px;
+		margin-left: 400px;
 	}
-*/
-	#menu{
-		position: absolute;
+	
+
+
+	#babu{
+		font-size: 1.1rem;
+		margin-left: 350px;
 	}
+	#wavy{
+		margin-left: 20px;
+		font-size: 2.2rem;
+	}
+	#love{
+		margin-left: 80px;
+		font-size: 1.5rem;
+	}
+
+	
 	
 	#maindiv{
 		left: 50%;
@@ -456,13 +477,14 @@ background-color:#FBB4B5;
 		height: 250px;
 	}
 	#maindiv1{
-		visibility: hidden;
+	visibility: hidden;
 		top:70%;
 		width: 300px;
 		height: 300px;
 	}
 	#maindiv2{
 		visibility: hidden;
+	
 		top:70%;
 		width: 300px;
 		height: 300px;
