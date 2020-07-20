@@ -1,70 +1,80 @@
 
+
 *
 {
 	padding: 0;
 		margin: 0;
 	box-sizing: border-box;
 }
-
 body{
 		overflow-x: hidden;
 		background-repeat: no-repeat;
 		background-image: url( "../image/abcd.jpg");
-		background-size: cover;
+background-size: cover;
 		font-family: sans-serif;
 	     font-weight: bold;
-		animation: bgcolor 3s;	
-	}	
+		animation: bgcolor 3s;
+	background-color: #fff;
+	font-size: 20px;
+
+	}
 .fa{
 	color: brown;
 }
-
-	#menu{
-		max-width: 1180px;
-		margin: 0 auto;
-		background: #142b47;
-	
-
-	}
-	
+#menu{
+	float: left;
+	margin-top: 10px;
+	position: fixed;
+	z-index: 1;
+	}	
 	#menu ul{
 	list-style: none;
-		line-height: 60px;
-      margin: 0;
-		padding: 0;
+	float: left;	
 	}
 	#menu li{
-		float: left;
+		display: inline-block;
+		list-style: none;
+		
 	}
-	
 	#menu ul li a{
-	background: #142b47;
 	text-decoration: none;
 	width: 125px;
 	text-align: center;
-	color: #f2f2f2;
+	color: #000;
 	display: block;
-	font-size: 15px;
+	font-size: 90%;
+	font-weight: 100;
 	letter-spacing: 0.1px;
 }
-	
 #menu li a:hover{
-		color: #fff;
+		color: #05146B;
 		opacity: 0.5;
 		font-size: 19px;
 	}
 	
+.logo{
+	border-radius: 50%;
+	width: auto;
+	height: 50px;
+	float: left;
+
+
+}
+
+
 	.search-form{
-		margin-top: 15px;
-		float: right;
-		margin-right: 100px;
 		
+		margin-left: 1050px;
+		position: fixed;
+		width: auto;
 		
 	}
 	
 	input[type=text]{
+	
 		padding: 7px;
 		border: none;
+		border: 2px solid #000;
 		font-size: 16px;
 		font-family: sans-serif;
 		border-radius: 5px 0 0 5px;
@@ -73,16 +83,15 @@ body{
 	button{
 		float: right;
 		background: orange;
-		color: #fff;
+		color: #000;
 		border-radius: 0 5px 5px 0;
 		cursor:pointer;
 		position:absolute;
 		padding: 7px;
-	border: none;
+	    border: none;
 		font-size: 16px;
-	
+	    border: 2px solid  #08054D;
 	}
-
 .bgpulse{
 		width: 100%;
 		height: 100%;
@@ -100,16 +109,12 @@ body{
 		background: transparent;
 		border: 5px solid #fff;
 	}	
-	.bgpulse span:nth-child(1)
-	{
-		
+	.bgpulse span:nth-child(1){
 		top: 50%;
 		left: 20%;
 		animation: animate 10s linear infinite;
 	}
-	.bgpulse span:nth-child(2)
-	{
-		
+	.bgpulse span:nth-child(2){	
 		top: 88%;
 		left: 40%;
 		animation: animate 12s linear infinite;
@@ -182,9 +187,7 @@ body{
 		}	
 		
 	}	
-	
-	
-	#wavy{
+#wavy{
 	text-align: center;
 	font-size: 3.1rem;
 		margin-top: 300PX;
@@ -205,11 +208,8 @@ body{
 	font-family: CONSOLAS;
 		font-weight: 600;
 	position: absolute;
-	
-	
 	}
 	#babu SPAN{
-	
 	position: relative;
 	display: inline-block;
 	color: black;
@@ -224,20 +224,17 @@ body{
 	}
 	20%
 	{
-		
 		transform: translateY(-20px);
 	}
 	40%,100%
 	{
-		
 		transform: translateY(0px);
 	}
-}	
+}
 	#am{
 		margin-right: 10px;
 	}	
 	#love{
-	
 	font-size: 1.5rem;
 		margin-top: 250PX;
 		margin-left: 400PX;
@@ -245,24 +242,19 @@ body{
 		font-weight: 600;
 	position: absolute;
 	}
-	
-
 #maindiv{
-	width: 450px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
 	left:16%;
-	top: 42%;
+	top: 45%;
 	background-image:url("../image/ROLL.jpg");
-	background-size: 100% 100%;
+background-size: auto;
+	box-shadow: 2px 2px 10px 10px black;
 	transform: translate(-50%, -30%);
 	box-shadow: 1px 2px 10px 10px black;
 	animation: slider 15s infinite linear;
-
-}
-
-
-
+ }
 @keyframes slider{
 	0%{
 	background-image: url( "../image/ROLLw.jpg")	;
@@ -272,8 +264,7 @@ body{
 	}
 	20%{
 		background-image: url("../image/vda.jpeg");
-	}
-	
+	}	
 	30%{
 		background-image: url(   "../image/cornchat.jpeg");
 	}
@@ -297,27 +288,20 @@ body{
 	}
 	100%{
 		background-image: url(  "../image/chw.jpeg");
-	}
-	
-	
+	}	
 }
-
 #maindiv1{
-	width: 450px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
-	left:53%;
-	top: 42%;
+	left:51%;
+	top: 45%;
 	background-image:url("ROLL.jpg");
-	background-size: 100% 100%;
+	background-size: auto;
 	transform: translate(-50%, -30%);
 	box-shadow: 1px 2px 10px 10px black;
 	animation: slidero 15s infinite linear;
-
 }
-
-
-
 @keyframes slidero{
 	0%{
 	background-image: url( "../image/croppasta.jpg")	;
@@ -356,24 +340,18 @@ body{
 	
 	
 }
-
-
 #maindiv2{
-	width: 450px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	position: absolute;
-	left:90%;
-	top: 42%;
+	left:85%;
+	top: 45%;
 	background-image:url("ROLL.jpg");
-	background-size: 100% 100%;
+	background-size: auto;
 	transform: translate(-50%, -30%);
 	box-shadow: 1px 2px 10px 10px black;
 	animation: sliderm 15s infinite linear;
-
 }
-
-
-
 @keyframes sliderm{
 	0%{
 	background-image: url( "../image/vda.jpeg")	;
@@ -412,58 +390,84 @@ body{
 	
 	
 }
-
 #sony{
-
 	position: absolute;
 	left:0%;
 	top: 95%;
 	background: #fff;
-
 }
-
 h1{
+	margin-top: 80%;
 	margin-left: 30%;
 	background: #1349B5;
 }
 .uglu{
-	background-color:#FBB4B5;
+background-color:#FBB4B5;
+	margin-top: 250px;
 }
-
 	#cona{
-		
 			font-size: 12px;
-		  
 			color: #000;
 			float: right;
 		}
 #cool{
+	margin-top: 80px;
 	border: 3px solid  #F4E6AD;
 	border-radius: 5px;
 	font-family:"Trebuchet MS";
 	
 }
+/*
+
+.mobile-icon{
+	display: none;}
+*/
+
+/*
+@media only screen and (max-width:600px)
+{
+	#search{
+		margin-left: 50%;
+	}
+}
+*/
+
 
 @media only screen and (max-width:600px)
 {
+/*
+	.main-nav{display: none;}
+	
+	.mobile-icon{
+		margin-top: 70px;
+		display:block;
+		float: right;
+		
+	}
+*/
+	#menu{
+		position: absolute;
+	}
+	
 	#maindiv{
-		width:250px;
-		height:250px;
+		left: 50%;
+		top:60%;
+		width: 400px;
+		height: 250px;
 	}
-	
-}
-@media only screen and (max-width:600px)
-{
 	#maindiv1{
-		width:250px;
-		height:250px;
+		visibility: hidden;
+		top:70%;
+		width: 300px;
+		height: 300px;
 	}
-	
-}@media only screen and (max-width:600px)
-{
 	#maindiv2{
-		width:250px;
-		height:250px;
+		visibility: hidden;
+		top:70%;
+		width: 300px;
+		height: 300px;
 	}
-	
+	#cool{
+		margin-top:150px;
+	}
 }
